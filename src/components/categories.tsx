@@ -8,10 +8,10 @@ export function Categories() {
     }, []);
 
     return (
-        <section className="flex flex-col items-center gap-4 py-6 px-[14px]">
-            <h3 className="text-[28px]">Busque por categoria:</h3>
+        <section className="flex flex-col items-center gap-4 py-6 px-[14px] mx-auto lg:max-w-[1110px]">
+           <h3 className="text-[28px]">Busque por categoria:</h3>
             {isTablet ? (
-            <div className="grid grid-cols-3 gap-6 w-full">
+            <div className="grid grid-cols-3 md:grid-cols-6 gap-6 w-full">
                 <div>
                     <img className="w-full" src="../src/assets/Tablet/Categorias/CategoriaCamiseta.png" alt="" />
                     <button className="py-2 px-4 bg-black text-white w-full font-medium">
@@ -50,7 +50,7 @@ export function Categories() {
                 </div>
             </div>
             ) : (
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-[30px]">
+            <div className="grid grid-cols-2 gap-[30px]">
                 <div>
                     <img src="../src/assets/mobile/Categorias/CategoriaCamiseta.png" alt="" />
                     <button className="py-2 px-4 bg-black text-white w-full font-medium">

@@ -5,9 +5,9 @@ export function Newsletter() {
                 <span className="text-black text-center md:text-xl">
                     Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!
                 </span>
-                <div className="flex">
+                <div className="flex justify-center">
                     <input
-                        className="md:max-w-96 py-2 px-4 placeholder:text-black/50 border border-black focus:outline-transparent w-full" 
+                        className="md:max-w-[400px] py-2 px-4 placeholder:text-black/50 border border-black w-full" 
                         type="text" 
                         placeholder="Digite seu email" 
                     />
