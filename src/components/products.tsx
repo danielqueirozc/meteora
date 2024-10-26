@@ -46,7 +46,7 @@ export function Products() {
     return (
         <section className="flex flex-col items-center gap-4 py-6 px-[14px]">
             <h3 className="text-[28px] text-center">Produtos que estão bombando!</h3>            
-            <div className="grid grid-cols-1 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div data-aos="fade-down"  data-aos-easing="ease-in-out" data-aos-duration="1000" className="flex-flex-col border border-black/15">
                     <img className="w-full" src="../src/assets/mobile/Imagens-cards/CardCamiseta.png" alt="" />
                     <div className="p-4 flex flex-col gap-4">
